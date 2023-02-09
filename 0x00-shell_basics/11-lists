@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "/boot directory contents:"
+ls -al /boot
+echo ""
