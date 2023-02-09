@@ -1,1 +1,1 @@
-Moving files
+this script Find all files in the current working directory that end with the character ~ 
