@@ -1,1 +1,1 @@
-this script Create the welcome/to/school directory
+Script that creates a magic file schoolmgc
