@@ -1,0 +1,3 @@
+#!/bin/bash
+ls -A --ignore=.* | sort --ignore-leading-blanks --field-separator=./ --key=2,2 | awk '{print (NF==1 ? "./" $0 : $0)}' | tr '/\n' ',\n' | sed 's/,$/\n/'
+
