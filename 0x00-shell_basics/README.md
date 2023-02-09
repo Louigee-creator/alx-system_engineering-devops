@@ -1,1 +1,1 @@
-this script Find all files in the current working directory that end with the character ~ 
+this script Create the welcome/to/school directory
