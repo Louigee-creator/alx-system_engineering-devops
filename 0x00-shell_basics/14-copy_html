@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Get the current working directory
+cwd=$(pwd)
+
+# Get the parent of the working directory
+parent_dir=$(dirname "$cwd")
+
+# Find all HTML files in the current working directory
+for file in "$cwd"/*.html; do
+  filename=$(basename "$file")
+  target_file="$parent_dir/$filename"
+
+  # Check if the file already exists in the parent directory
+  if [ -e "$target_file" ]; then
+    # Check if the file in the current directory is newer than the one in the parent directory
+    if [ "$file" -nt "$target_file" ]; then
+      # Copy the file if it is newer
+      cp "$file" "$target_file"
+      echo "Copied $filename to $parent_dir"
+    fi
+  else
+    # Copy the file if it does not exist in the parent directory
+    cp "$file" "$target_file"
+    echo "Copied $filename to $parent_dir"
+  fi
+done
+
