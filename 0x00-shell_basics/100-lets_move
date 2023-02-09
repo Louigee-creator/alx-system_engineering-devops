@@ -1,16 +1,3 @@
 #!/bin/bash
+find "$(pwd)" -regextype posix-extended -regex "^$(pwd)/[A-Z].*" -exec mv {} /tmp/u \;
 
-# Create the destination directory if it doesn't exist
-if [ ! -d "/tmp/u" ]; then
-  mkdir /tmp/u
-fi
-
-for file in *; do
- 
-  first_letter=$(echo "$file" | cut -c1)
-  if [ "$first_letter" == "${first_letter^^}" ]; then
-   
-    mv "$file" /tmp/u/
-    echo "Moved $file to /tmp/u/"
-  fi
-done
