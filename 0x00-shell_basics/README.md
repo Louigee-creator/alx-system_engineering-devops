@@ -1,1 +1,1 @@
-This script displays the content list of the current working directory
+this scripts Display current directory contents in a long format
