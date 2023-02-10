@@ -1,1 +1,1 @@
-This script uses the "chown" command to change the owner of the file "hello" to the user "betty".
+This script uses the "touch" command to create an empty file with the name "hello" 
