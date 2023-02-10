@@ -1,1 +1,1 @@
-This script uses a for loop to iterate over all subdirectories of the current directory. 
+This script combines the two commands from the previous solution into a single line using the && operator.
