@@ -1,1 +1,1 @@
-This script uses the "chmod" command to modify the permissions of the file "hello" 
+This script uses the "stat" command to retrieve the mode of the file "olleh" 
