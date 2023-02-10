@@ -1,1 +1,1 @@
-This script uses the "touch" command to create an empty file with the name "hello" 
+This script uses the "chmod" command to modify the permissions of the file "hello" 
