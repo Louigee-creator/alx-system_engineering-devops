@@ -1,1 +1,1 @@
-This script uses the "groups" command, which prints the names of all the groups the current user
+This script uses the "chown" command to change the owner of the file "hello" to the user "betty".
