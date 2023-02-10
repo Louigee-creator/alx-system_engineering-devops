@@ -1,1 +1,1 @@
-This script uses the "stat" command to retrieve the mode of the file "olleh" 
+This script uses a for loop to iterate over all subdirectories of the current directory. 
