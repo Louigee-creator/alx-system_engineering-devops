@@ -1,1 +1,1 @@
-This script uses the "su" (switch user) command to switch the current user to the user "betty" 
+This script uses the "echo" command to print the value of the USER environment variable, which holds the effective username of the current user.
