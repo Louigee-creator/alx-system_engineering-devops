@@ -1,1 +1,1 @@
-This script uses the "echo" command to print the value of the USER environment variable, which holds the effective username of the current user.
+This script uses the "groups" command, which prints the names of all the groups the current user
