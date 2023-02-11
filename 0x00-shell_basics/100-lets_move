@@ -1,3 +1,2 @@
 #!/bin/bash
-find "$(pwd)" -regextype posix-extended -regex "^$(pwd)/[A-Z].*" -exec mv {} /tmp/u \
-
+for file in [A-Z]* mv "$file" /tmp/u
