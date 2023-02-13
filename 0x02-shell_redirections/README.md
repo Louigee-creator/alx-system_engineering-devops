@@ -1,1 +1,1 @@
-This will display the contents of the /etc/passwd file
+script to display the content of etc/passwd file
