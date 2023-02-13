@@ -1,1 +1,1 @@
-Here's a script in bash that displays a confused smiley:
+This will print Hello, World followed by a new line to the standard output
