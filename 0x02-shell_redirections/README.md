@@ -1,1 +1,1 @@
-his will display the contents of the /etc/passwd file
+This will display the contents of the /etc/passwd file
