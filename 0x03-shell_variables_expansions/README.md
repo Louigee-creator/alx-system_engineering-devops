@@ -1,1 +1,1 @@
-this script creates an alias
+this scripts prints a number with two decimal places
